@@ -6,13 +6,17 @@ import VendingMachine from "./VendingMachine"
 // import Drink from "./Drink";
 // import NavBar from "./NavBar";
 
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <VendingMachine/>
+        <Switch>
+          <Route path="/" exact>
+            <VendingMachine />
+          </Route>
+        </Switch>
       </BrowserRouter>
     </div>
   );
