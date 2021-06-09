@@ -10,7 +10,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 
 function VendingMachine() {
   return (
-    <div className="App">
+    <div className="Vending Machine">
       <BrowserRouter>
         <NavBar />
         <Route exact path="/soda">

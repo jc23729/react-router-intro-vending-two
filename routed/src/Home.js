@@ -3,10 +3,10 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <h1>I'M HUNGRY</h1>
+      <h1>Please Select from the tab above for your Snack</h1>
       <img
-        src="https://i.giphy.com/pBj0EoGSYjGms.gif"
-        alt="Audrey II wants to eat."
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScNkBY3CCdGokYCLs2yNLwRDdoayigL_M1UA&usqp=CAU"
+        alt="Vending Machine"
       />
     </div>
   );
