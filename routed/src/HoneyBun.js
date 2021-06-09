@@ -4,12 +4,9 @@ function HoneyBun() {
   return (
     <div>
       <h1>Honey Buns</h1>
-      <img
-        src="https://i.giphy.com/DbD6EnlEQmjTi.gif"
-        alt="Honey Buns"
-      />
+      <img src="https://tinyurl.com/y8sdh4hv" alt="Honey Buns" />
     </div>
   );
 }
 
-export default Soda;
+export default HoneyBun;

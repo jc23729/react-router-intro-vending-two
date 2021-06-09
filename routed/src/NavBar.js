@@ -14,6 +14,9 @@ function NavBar() {
       <NavLink exact to="/soda">
         Soda
       </NavLink>
+      <NavLink exact to="/honeybun">
+        Honey Bun
+      </NavLink>
     </nav>
   );
 }
