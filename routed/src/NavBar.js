@@ -8,8 +8,8 @@ function NavBar() {
       <NavLink exact to="/">
         Home
       </NavLink>
-      <NavLink exact to="/eat">
-        Eat
+      <NavLink exact to="/reeses">
+        Reeses
       </NavLink>
       <NavLink exact to="/soda">
         Soda

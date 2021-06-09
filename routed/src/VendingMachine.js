@@ -1,7 +1,7 @@
 import React from "react";
 
 import Home from "./Home";
-import Eat from "./Eat";
+import Reeses from "./Reeses";
 import Soda from "./Soda";
 import NavBar from "./NavBar";
 
@@ -15,8 +15,8 @@ function VendingMachine() {
         <Route exact path="/soda">
           <Soda />
         </Route>
-        <Route exact path="/eat">
-          <Eat />
+        <Route exact path="/reeses">
+          <Reeses />
         </Route>
         <Route exact path="/">
           <Home />
