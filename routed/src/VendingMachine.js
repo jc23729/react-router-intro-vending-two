@@ -2,7 +2,7 @@ import React from "react";
 
 import Home from "./Home";
 import Eat from "./Eat";
-import Drink from "./Drink";
+import Soda from "./Soda";
 import NavBar from "./NavBar";
 
 import { BrowserRouter, Route } from "react-router-dom";
@@ -12,8 +12,8 @@ function VendingMachine() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        <Route exact path="/drink">
-          <Drink />
+        <Route exact path="/soda">
+          <Soda />
         </Route>
         <Route exact path="/eat">
           <Eat />

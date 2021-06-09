@@ -1,6 +1,6 @@
 import React from "react";
 
-function Drink() {
+function Soda() {
   return (
     <div>
       <h1>SO REFRESHING</h1>
@@ -12,4 +12,4 @@ function Drink() {
   );
 }
 
-export default Drink;
+export default Soda;
