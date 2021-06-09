@@ -11,8 +11,8 @@ function NavBar() {
       <NavLink exact to="/eat">
         Eat
       </NavLink>
-      <NavLink exact to="/drink">
-        Drink
+      <NavLink exact to="/soda">
+        Soda
       </NavLink>
     </nav>
   );
